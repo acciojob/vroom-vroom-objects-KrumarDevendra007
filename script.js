@@ -13,7 +13,9 @@ Car.prototype.getMakeModel = function() {
 // Constructor function for SportsCar
 function SportsCar(make, model, topSpeed) {
     // Call the Car constructor to initialize make and model
-    Car.call(make, model, this);
+    // Car.call(make, model, this);
+	this.make = make;
+    this.model = model;
     this.topSpeed = topSpeed;
 }
 
