@@ -1,7 +1,7 @@
 // Complete the js code
 function Car(make, model) {
-	make = this.make;
-	model = this.model;
+	 this.make; = make;
+	  this.model; = model;
 }
 
 // Method added to Car prototype
